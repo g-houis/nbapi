@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+.idea
+.yarn/cache
+
+build
+.yarn/install-state.gz
+.pnp.loader.mjs
+.pnp.cjs
