@@ -1,5 +1,5 @@
 {
-  "name": "nba-api-client",
+  "name": "nba-simple-api-client",
   "version": "0.0.1",
   "description": "Typescript api to fetch data from nba web services",
   "main": "index.ts",
