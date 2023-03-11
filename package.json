@@ -1,7 +1,7 @@
 {
-  "name": "nbapi",
+  "name": "nba-api-client",
   "version": "0.0.1",
-  "description": "An api to fetch data from nba web services",
+  "description": "Typescript api to fetch data from nba web services",
   "main": "index.ts",
   "repository": "https://github.com/g-houis/nbapi.git",
   "author": "guillaume houis <guillaume.houis@gmail.com>",
