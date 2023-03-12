@@ -36,5 +36,7 @@
     ]
   },
   "compileOnSave": false,
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts",
+    "src/index.ts"
+  ]
 }

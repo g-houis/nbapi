@@ -2,7 +2,7 @@
   "name": "nba-simple-api-client",
   "version": "0.0.3",
   "description": "Typescript api to fetch data from nba web services",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "repository": "https://github.com/g-houis/nbapi.git",
   "author": "guillaume houis <guillaume.houis@gmail.com>",
   "license": "Apache 2",

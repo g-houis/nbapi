@@ -1,4 +1,4 @@
-type BoxScoreTraditionalV2Statistics = {
+type TraditionalBoxScoreStatistics = {
   minutes: string,
   fieldGoalsMade: number,
   fieldGoalsAttempted: number,
@@ -21,7 +21,7 @@ type BoxScoreTraditionalV2Statistics = {
   plusMinusPoints: number
 };
 
-type BoxScoreTraditionalV2Player = {
+type TraditionalBoxScorePlayer = {
   personId: number,
   firstName: string,
   familyName: string,
@@ -30,24 +30,24 @@ type BoxScoreTraditionalV2Player = {
   position: string,
   comment: string,
   jerseyNum: string,
-  statistics: BoxScoreTraditionalV2Statistics
+  statistics: TraditionalBoxScoreStatistics
 };
 
-type BoxScoreTraditionalV2Team = {
+type TraditionalBoxScoreTeam = {
   teamId: number,
   teamCity: string,
   teamName: string,
   teamTricode: string,
   teamSlug: string,
-  players: BoxScoreTraditionalV2Player[]
+  players: TraditionalBoxScorePlayer[]
 };
 
-export type BoxScoreTraditionalV2 = {
+export type TraditionalBoxScore = {
   boxScoreTraditional: {
     gameId: string,
     awayTeamId: number,
     homeTeamId: number,
-    homeTeam: BoxScoreTraditionalV2Team,
-    awayTeam: BoxScoreTraditionalV2Team
+    homeTeam: TraditionalBoxScoreTeam,
+    awayTeam: TraditionalBoxScoreTeam
   }
 };
